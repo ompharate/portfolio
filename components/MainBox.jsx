@@ -26,7 +26,7 @@ const MainBox = () => {
         </div>
       </div>
       <div className={Styles.right}>
-        <img className={Styles.img} src="/image.png" />
+        <img className={Styles.img} src="/Image.png" />
       </div>
     </div>
   );
