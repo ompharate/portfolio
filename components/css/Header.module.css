@@ -1,0 +1,28 @@
+
+.nav {
+  width: 90vw;
+  margin: auto;
+  padding: 10px
+}
+
+.ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.leftHeader {
+  width: 20%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.a{
+    color: #007aff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+}

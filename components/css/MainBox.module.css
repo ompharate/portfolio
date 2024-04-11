@@ -1,0 +1,57 @@
+.div {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  margin: auto;
+  margin-top: 80px;
+  justify-content: space-evenly;
+ 
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 3px;
+}
+
+.locationParent {
+  display: flex;
+  padding: 10px;
+}
+
+.location {
+  font-size: 25px;
+}
+
+.name {
+  font-size: 100px;
+  padding: 0;
+  margin: 0;
+}
+
+.domain {
+  font-size: 30px;
+  padding-left: 10px;
+
+  /* padding: Zpx; */
+}
+
+.img {
+  width: 600px;
+  height: 600px;
+}
+
+.iconContainer {
+  padding: 10px;
+  display: flex;
+  gap: 10px;
+}
+
+.icon {
+  width: 25px;
+  height: 25px;
+}
+.socialLine {
+  padding: 8px;
+}
