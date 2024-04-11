@@ -5,7 +5,7 @@ const MainBox = () => {
     <div className={Styles.div}>
       <div className={Styles.left}>
         <div className={Styles.locationParent}>
-        <img width={25} height={25} src="/public/icons/location-pin.png"></img>
+        <img width={25} height={25} src="/icons/location-pin.png"></img>
           <p className={Styles.location}>Pune. India.</p>
         </div>
         <div>
@@ -17,11 +17,11 @@ const MainBox = () => {
         <div>
           <p className={Styles.socialLine}>Connect with me.</p>
           <div className={Styles.iconContainer}>
-            <img className={Styles.icon} src="/public/icons/instagram.png" />
-            <img className={Styles.icon} src="/public/icons/linkedin.png" />
-            <img className={Styles.icon} src="/public/icons/github.png" />
-            <img className={Styles.icon} src="/public/icons/leetcode.svg" />
-            <img className={Styles.icon}  src="/public/icons/cn.png" />
+            <img className={Styles.icon} src="/icons/instagram.png" />
+            <img className={Styles.icon} src="/icons/linkedin.png" />
+            <img className={Styles.icon} src="/icons/github.png" />
+            <img className={Styles.icon} src="/icons/leetcode.svg" />
+            <img className={Styles.icon}  src="/icons/cn.png" />
           </div>
         </div>
       </div>

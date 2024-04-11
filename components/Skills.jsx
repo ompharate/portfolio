@@ -7,17 +7,17 @@ const Skills = () => {
             <h2 style={{color:"#007aff"}}>Core Competencies</h2>
         </div>
         <div className={Styles.techStack}>
-            <img className={Styles.tech} src='/public/icons/nodejs.png'/>
-            <img className={Styles.tech} src='/public/icons/expressjs.png'/>
-            <img className={Styles.tech} src='/public/icons/reactjs.png'/>
-            <img className={Styles.tech} src='/public/icons/mongodb.png'/>
-            <img className={Styles.tech} src='/public/icons/rn.png'/>
-            <img className={Styles.tech} src='/public/icons/typescript.png'/>
-            <img className={Styles.tech} src='/public/icons/firebase.png'/>
-            <img className={Styles.tech} src='/public/icons/docker.png'/>
-            <img className={Styles.tech} src='/public/icons/java.png'/>
-            <img className={Styles.tech} src='/public/icons/cpp.png'/>
-            <img className={Styles.tech} src='/public/icons/tailwindcss.png'/>
+            <img className={Styles.tech} src='/icons/nodejs.png'/>
+            <img className={Styles.tech} src='/icons/expressjs.png'/>
+            <img className={Styles.tech} src='/icons/reactjs.png'/>
+            <img className={Styles.tech} src='/icons/mongodb.png'/>
+            <img className={Styles.tech} src='/icons/rn.png'/>
+            <img className={Styles.tech} src='/icons/typescript.png'/>
+            <img className={Styles.tech} src='/icons/firebase.png'/>
+            <img className={Styles.tech} src='/icons/docker.png'/>
+            <img className={Styles.tech} src='/icons/java.png'/>
+            <img className={Styles.tech} src='/icons/cpp.png'/>
+            <img className={Styles.tech} src='/icons/tailwindcss.png'/>
         </div>
     </div>
   )
