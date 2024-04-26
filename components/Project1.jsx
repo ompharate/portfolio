@@ -3,8 +3,8 @@ import Styles from "./css/Project.module.css";
 
 const Project1 = () => {
   return (
-    <div id="projects" className={Styles.div}>
-      <h1 style={{ color: "#007aff", padding: 30 }}>Projects</h1>
+    <div id="projects" style={{backgroundColor:"#C9D7DD"}} className={Styles.div}>
+
       <div className={Styles.project1}>
         <div className={Styles.row1}>
           <img className={Styles.img} src="/projects/project1/l1.png" />

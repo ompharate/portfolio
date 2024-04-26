@@ -1,10 +1,17 @@
 .div {
-  /* width: 100%; */
+  width: 90%;
+  border-radius: 30px;
   height: 100%;
-  /* padding: 10px; */
-  margin: auto;
+  /*padding: 10px;
+  */margin: auto;
   padding: 50px;
-  /* margin-top: 80px; */
+  /*margin-top: 80px;
+  */
+ margin-top: 10px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
 }
 .row1 {
   display: flex;
@@ -17,8 +24,8 @@
   justify-content: center;
 }
 .img {
-  width: 600px;
-  height: 400px;
+  width: 75%;
+  height: 350px;
 }
 .Mimg {
   height: 500px;
