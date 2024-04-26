@@ -39,6 +39,15 @@ const Project2 = () => {
                 </svg>
                 Live
               </button>
+              <button
+                onClick={() =>
+                  window.open("https://github.com/ompharate/twitter", "_blank")
+                }
+                className={Styles.button}
+              >
+              
+                Github
+              </button>
             </div>
           </div>
         </div>

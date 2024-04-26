@@ -48,6 +48,17 @@ const Project1 = () => {
               >
                 Download
               </button>
+              <button
+                onClick={() =>
+                  window.open(
+                    "https://github.com/ompharate/dsa-project",
+                    "_blank"
+                  )
+                }
+                className={Styles.button}
+              >
+                Github
+              </button>
             </div>
           </div>
           <img className={Styles.Mimg} src="/projects/project1/4.png" />
