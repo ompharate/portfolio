@@ -3,7 +3,7 @@ import Styles from "./css/Project.module.css";
 
 const Project1 = () => {
   return (
-    <div id="projects" style={{backgroundColor:"#C9D7DD"}} className={Styles.div}>
+    <div id="projects" style={{backgroundColor:"#1B1A55"}} className={Styles.div}>
 
       <div className={Styles.project1}>
         <div className={Styles.row1}>
@@ -16,7 +16,7 @@ const Project1 = () => {
           <img className={Styles.Mimg} src="/projects/project1/2.png" />
           <div className={Styles.action}>
             <div>
-              <h1>Student Management</h1>
+              <h1 style={{color:"white"}}>Student Management</h1>
             </div>
             <div className={Styles.btnGroup}>
               <button

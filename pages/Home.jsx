@@ -3,6 +3,7 @@ import MainBox from '../components/MainBox'
 import Skills from '../components/Skills'
 import Project1 from '../components/Project1'
 import Project2 from '../components/Project2'
+import Project3 from '../components/Project3'
 
 const Home = () => {
   return (
@@ -10,6 +11,7 @@ const Home = () => {
       <MainBox/>
       <Skills/>
       <h1 style={{ color: "#007aff", padding: 30 }}>Projects</h1>
+      <Project3/>
       <Project2/>
       <Project1/>
     </div>
