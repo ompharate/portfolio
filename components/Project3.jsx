@@ -21,7 +21,7 @@ const Project3 = () => {
               <button
                 onClick={() =>
                   window.open(
-                    "https://expo.dev//accounts/ompharate/projects/studentManagment/builds/197f227e-427f-407d-b197-392a9b8ae26f",
+                    "https://expo.dev//accounts/ompharate/projects/build/builds/ad7c5cf4-9965-464d-9123-e85d268fb67f",
                     "_blank"
                   )
                 }
@@ -32,7 +32,7 @@ const Project3 = () => {
               <button
                 onClick={() =>
                   window.open(
-                    "https://github.com/ompharate/dsa-project",
+                    "https://github.com/ompharate/instagram-clone.git",
                     "_blank"
                   )
                 }
