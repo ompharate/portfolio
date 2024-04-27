@@ -1,18 +1,19 @@
-import {BrowserRouter,Routes,Route} from "react-router-dom";
-import Home from "../pages/Home"
-import About from "../pages/About"
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from "../pages/Home";
 import Header from "../components/Header";
+import Contact from "../pages/Contact";
+import OmPharateSEO from "../components/OmPharateSEO";
 function App() {
-
   return (
     <BrowserRouter>
-    <Header/>
+      <OmPharateSEO />
+      <Header />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/contact" element={<About />} />
-      </Routes>   
+        <Route path="/contact" element={<Contact />} />
+      </Routes>
     </BrowserRouter>
-  )
+  );
 }
 
-export default App
+export default App;

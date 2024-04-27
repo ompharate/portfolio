@@ -1,11 +1,17 @@
 import React from "react";
 import Styles from "./css/Header.module.css";
+
 const Header = () => {
   const scrollToSection = () => {
-  
+    
+    
     const section = document.getElementById('projects');
+   
+
     if (section) {
       section.scrollIntoView({ behavior: 'smooth' });
+    }else{
+      window.location.href = '/';
     }
   };
 
