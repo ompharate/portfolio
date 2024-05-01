@@ -1,6 +1,7 @@
 .div {
   width: 90%;
   height: 95vh;
+  overflow: hidden;
   display: flex;
   margin: auto;
   /* margin-top: 80px; */
