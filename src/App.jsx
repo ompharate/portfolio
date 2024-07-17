@@ -7,7 +7,7 @@ function App() {
   return (
 
     <div style={{display:"flex",justifyContent:"center",alignItems:"center",height:"100vh"}}>
-      <h1 style={{color:"red"}}>Under Maintains</h1>
+      <h1 style={{color:"red"}}>Under Maintenance</h1>
     </div>
     // <BrowserRouter>
     //   <OmPharateSEO />
