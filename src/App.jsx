@@ -5,14 +5,18 @@ import Contact from "../pages/Contact";
 import OmPharateSEO from "../components/OmPharateSEO";
 function App() {
   return (
-    <BrowserRouter>
-      <OmPharateSEO />
-      <Header />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/contact" element={<Contact />} />
-      </Routes>
-    </BrowserRouter>
+
+    <div style={{display:"flex",justifyContent:"center",alignItems:"center",height:"100vh"}}>
+      <h1 style={{color:"red"}}>Under Maintains</h1>
+    </div>
+    // <BrowserRouter>
+    //   <OmPharateSEO />
+    //   <Header />
+    //   <Routes>
+    //     <Route path="/" element={<Home />} />
+    //     <Route path="/contact" element={<Contact />} />
+    //   </Routes>
+    // </BrowserRouter>
   );
 }
 
